@@ -31,7 +31,7 @@ void PrintArray(int[,] inArray)
     {
         for(int j=0; j<inArray.GetLength(1); j++)
         {
-            Console.Write($"{inArray[i,j]} ");
+            Console.Write($"{inArray[i,j]}\t");
         }
         Console.WriteLine();
     }
